@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página HTML5</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenidos a mi Página Web HTML5</h1>
+    <nav>
+      <ul>
+        <li><a href="#seccion1">Inicio</a></li>
+        <li><a href="#seccion2">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="seccion1">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy estudiante de desarrollo web. Me gusta <strong>programar</strong> y crear <em>sitios creativos</em>.</p>
+    </section>
+
+    <section id="seccion2">
+      <h2>Galería</h2>
+      <article>
+        <h3>Imagen de muestra</h3>
+        <img src="assets/img/imagen1.jpg" alt="Una imagen representativa" width="300">
+      </article>
+
+      <article>
+        <h3>Video educativo</h3>
+        <p>Este video muestra conceptos clave de HTML5:</p>
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/P7LtiqwhemQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+        </iframe>
+      </article>
+    </section>
+
+    <section>
+      <h2>Listas</h2>
+      <h3>Lista ordenada</h3>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+
+      <h3>Lista desordenada</h3>
+      <ul>
+        <li>Estudiar</li>
+        <li>Practicar</li>
+        <li>Crear proyectos</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tabla de tecnologías</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tecnología</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Lenguaje de marcado</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Estilos y diseño</td>
+          </tr>
+          <tr>
+            <td>JS</td>
+            <td>Lenguaje de programación</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Enlace útil</h2>
+      <p>Visita <a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs</a> para más información sobre HTML.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Página HTML5 - Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
